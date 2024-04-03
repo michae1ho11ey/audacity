@@ -164,6 +164,7 @@ set( IMAGE_LIST
 foreach( pair
    "classic;ClassicThemeAsCeeCode"
    "dark;DarkThemeAsCeeCode"
+   "dark-modern;DarkModernThemeAsCeeCode"
    "high-contrast;HighContrastThemeAsCeeCode"
    "light;LightThemeAsCeeCode"
 )
@@ -189,6 +190,8 @@ set( SOURCES
    ClassicThemeAsCeeCode.h
    DarkThemeAsCeeCode.cpp
    DarkThemeAsCeeCode.h
+   DarkModernThemeAsCeeCode.cpp
+   DarkModernThemeAsCeeCode.h
    HighContrastThemeAsCeeCode.cpp
    HighContrastThemeAsCeeCode.h
    LightThemeAsCeeCode.cpp
